@@ -1,22 +1,8 @@
 /**
- * Par Not Far
- * - Header scroll state (transparent over hero, solid when scrolled)
- * - Waitlist form (replace YOUR_FORM_ID with Formspree form ID)
+ * Par Not Far Waitlist Form
+ * Replace YOUR_FORM_ID with your Formspree form ID from https://formspree.io
  */
 (function () {
-  /* Header: add .scrolled when past hero */
-  const header = document.querySelector('.header');
-  if (header) {
-    const hero = document.querySelector('.hero');
-    const check = () => {
-      const heroBottom = hero ? hero.offsetTop + hero.offsetHeight : 200;
-      header.classList.toggle('scrolled', window.scrollY > heroBottom * 0.6);
-    };
-    window.addEventListener('scroll', check, { passive: true });
-    check();
-  }
-
-  /* Waitlist form */
   const FORM_ID = 'YOUR_FORM_ID';
   const form = document.getElementById('waitlist-form');
   const submitBtn = document.getElementById('submit-btn');
