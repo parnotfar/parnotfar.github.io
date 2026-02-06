@@ -150,7 +150,6 @@ body {
   inset: 0;
   background:
     linear-gradient(180deg, rgba(27, 79, 66, 0.7) 0%, rgba(27, 79, 66, 0.45) 35%, rgba(27, 79, 66, 0.82) 100%),
-    linear-gradient(135deg, #153d33 0%, #1B4F42 50%, #0f2a24 100%),
     url('assets/images/hero.jpg') no-repeat center / cover;
 }
 
