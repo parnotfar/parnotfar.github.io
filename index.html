@@ -1,1 +1,116 @@
-first
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Par Not Far — Your On-Course Golf Agent</title>
+  <meta name="description" content="Par Not Far is your on-course golf partner — part caddie, part coach. Play freer, make better choices, drop strokes. Get early access.">
+  <meta property="og:title" content="Par Not Far — Your On-Course Golf Agent">
+  <meta property="og:description" content="Par Not Far is your on-course golf partner — part caddie, part coach. Play freer, make better choices, drop strokes. Get early access.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://parnotfar.com">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Par Not Far — Your On-Course Golf Agent">
+  <meta name="twitter:description" content="Par Not Far is your on-course golf partner. Play freer, make better choices, drop strokes.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Sora:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <a href="#" class="logo">Par Not Far</a>
+      <nav class="nav">
+        <a href="#waitlist" class="nav-cta">Get Early Access</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <h1 class="hero-headline">Your on-course golf agent.</h1>
+        <p class="hero-subhead">Golf is hard. Thinking too much makes it harder. Par Not Far is your golf partner for the moments that matter — helping you pick a plan, commit to it, and learn from every shot. Play freer. Make better choices. Drop strokes without drowning in data.</p>
+        <a href="#waitlist" class="btn btn-primary">Get Early Access</a>
+      </div>
+    </section>
+
+    <section class="section section-benefits">
+      <div class="container">
+        <h2 class="section-title">Play freer. Make better choices.</h2>
+        <ul class="benefits-list">
+          <li class="benefit">
+            <span class="benefit-label">Play</span>
+            <span class="benefit-desc">Pick smarter targets and clubs based on your game</span>
+          </li>
+          <li class="benefit">
+            <span class="benefit-label">Commit</span>
+            <span class="benefit-desc">Less second-guessing, more confident swings</span>
+          </li>
+          <li class="benefit">
+            <span class="benefit-label">Improve</span>
+            <span class="benefit-desc">Clear takeaways after every round</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-how">
+      <div class="container">
+        <h2 class="section-title">How it works</h2>
+        <p class="section-text">Par Not Far learns how you actually play — your patterns, misses, and strengths — then turns that into simple, timely guidance. On the course it helps you choose a target and a shot you can execute. After the round it highlights what to work on next, so practice has a purpose.</p>
+        <div class="human-block">
+          <p>A great caddie becomes part of your game — someone who knows you, learns your tendencies, and helps you improve. We built Par Not Far from scratch to give you that kind of relationship, without the country club price tag.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-preview">
+      <div class="container">
+        <h2 class="section-title">Built by golfers, for the moments that matter</h2>
+        <div class="screenshots">
+          <figure class="screenshot">
+            <img src="assets/images/screenshot-1.png" alt="vCaddie conversation and shot recommendation" onerror="this.src='assets/images/placeholder.svg'">
+            <figcaption>Conversation and shot recommendations</figcaption>
+          </figure>
+          <figure class="screenshot">
+            <img src="assets/images/screenshot-2.png" alt="vCaddie hole visualization" onerror="this.src='assets/images/placeholder.svg'">
+            <figcaption>Hole strategy and visualization</figcaption>
+          </figure>
+        </div>
+        <p class="section-note">Add your vCaddie app screenshots to <code>assets/images/screenshot-1.png</code> and <code>screenshot-2.png</code></p>
+      </div>
+    </section>
+
+    <section class="section section-closing">
+      <div class="container">
+        <p class="closing-text">Par Not Far helps you turn better decisions into lower scores.</p>
+      </div>
+    </section>
+
+    <section id="waitlist" class="section section-waitlist">
+      <div class="container container-narrow">
+        <h2 class="section-title">Get early access</h2>
+        <p class="section-text">Join the waitlist. We’ll let you know when vCaddie is ready.</p>
+        <form id="waitlist-form" class="waitlist-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="form-group">
+            <label for="email" class="visually-hidden">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="email">
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">Get Early Access</button>
+          <p id="form-message" class="form-message" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Par Not Far, Inc.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
