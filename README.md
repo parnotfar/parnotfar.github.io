@@ -19,11 +19,11 @@ Add these files to `assets/images/`:
 
 | File | Description |
 |------|-------------|
+| `hero.jpg` | **Hero background** — Full-bleed image for the hero section. Use a high-quality golf photo (fairway, green, sunset on course, etc.) at ~1920×1080 or larger. A green PNF overlay ensures text stays readable. |
 | `screenshot-1.png` | vCaddie conversation / shot recommendation UI |
 | `screenshot-2.png` | vCaddie hole visualization or scorecard |
-| `hero.png` | (Optional) Hero image or app mockup |
 
-Use PNG or WebP at ~1–2x device resolution for retina screens.
+Use PNG or WebP for screenshots at ~1–2x device resolution. Hero can be JPG for smaller file size.
 
 ## Formspree Setup
 
